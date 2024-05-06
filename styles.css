@@ -98,3 +98,7 @@ li {
     flex-direction: column;
     gap: 5px;
 }
+
+.bg-lazer {
+   background-color: wheat;
+}
