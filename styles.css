@@ -55,7 +55,20 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
+
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 8px 8px #666;
 }
+
+.botao:active {
+    box-shadow: 5px 5px #666;
+    transform: translateY(4px);
+  }
 
 .clicado {
     border-bottom: 3px solid rgb(44, 126, 250);
@@ -90,7 +103,7 @@ li {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .botoes-coluna {
@@ -100,5 +113,5 @@ li {
 }
 
 .bg-lazer {
-   background-color: wheat;
+   background-color: #b2ffb2;
 }
