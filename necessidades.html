@@ -24,12 +24,16 @@
 
     <section class="botoes">
         <div class="botoes-coluna">
-            <button id="playButton" class="botao" style="background-image: url(/assets/toalete.png);"></button>
-            <audio id="myAudio" src="/assets/audios/banheiro.mp3"></audio>
+            <!-- <button id="playButton" class="botao" style="background-image: url(/assets/toalete.png);"></button>
+            <audio id="myAudio" src="/assets/audios/banheiro.mp3"></audio> -->
+            <button data-audio="/assets/audios/banheiro.mp3" class="botao playButton" style="background-image: url(/assets/toalete.png);"></button>
+            <button data-audio="/assets/audios/banheiro.mp3" class="botao playButton" style="background-image: url(/assets/com-sono.png);"></button>
 
+            <!-- <button class="botao" style="background-image: url(/assets/com-sono.png);"></button> -->
             <button class="botao" style="background-image: url(/assets/beber-agua.png);"></button>
-            <button class="botao" style="background-image: url(/assets/com-sono.png);"></button>
             <button class="botao" style="background-image: url(/assets/escovar.png);"></button>
+
+            <audio id="audioPlayer"></audio>
         </div>
         <div class="botoes-coluna">
             <button class="botao" style="background-image: url(/assets/banho.png);"></button>
