@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="icon" type="imagem/png" href="/assets/logo.png" />
     <title>Higiene</title>
 </head>
+
 <body class="bg-lazer">
     <header class="cabecalho">
         <img class="cabecalho-logo" src="/assets/logo.png" alt="Logo autismo">
@@ -22,17 +24,21 @@
 
     <section class="botoes">
         <div class="botoes-coluna">
-            <button class="botao" style="background-image: url(/assets/toalete.png);"><p></p></button>
+            <button id="playButton" class="botao" style="background-image: url(/assets/toalete.png);"></button>
+            <audio id="myAudio" src="/assets/audios/banheiro.mp3"></audio>
+
             <button class="botao" style="background-image: url(/assets/beber-agua.png);"></button>
             <button class="botao" style="background-image: url(/assets/com-sono.png);"></button>
             <button class="botao" style="background-image: url(/assets/escovar.png);"></button>
         </div>
-        <div  class="botoes-coluna">
+        <div class="botoes-coluna">
             <button class="botao" style="background-image: url(/assets/banho.png);"></button>
             <button class="botao" style="background-image: url(/assets/prato.png);"></button>
             <button class="botao" style="background-image: url(/assets/abraco.png);"></button>
             <button class="botao" style="background-image: url(/assets/doces.png);"></button>
         </div>
     </section>
+    <script src="/script.js"></script>
 </body>
+
 </html>
