@@ -24,18 +24,19 @@
 
     <section class="botoes">
         <div class="botoes-coluna">
-            <button class="botao" style="background-image: url(/assets/cinema.png);">
+            <button data-audio="/assets/audios/quero-ir-cinema.mp3" class="botao playButton" style="background-image: url(/assets/cinema.png);">
             </button>
-            <button class="botao" style="background-image: url(/assets/tv.png);"></button>
-            <button class="botao" style="background-image: url(/assets/jardim-zoologico.png);"></button>
-            <button class="botao" style="background-image: url(/assets/video_game.png);"></button>
+            <button data-audio="/assets/audios/quero-assistir-tv.mp3" class="botao playButton" style="background-image: url(/assets/tv.png);"></button>
+            <button data-audio="/assets/audios/quero-ir-zoo.mp3" class="botao playButton" style="background-image: url(/assets/jardim-zoologico.png);"></button>
+            <button data-audio="/assets/audios/quero-jogar-videogame.mp3" class="botao playButton" style="background-image: url(/assets/video_game.png);"></button>
         </div>
         <div class="botoes-coluna">
-            <button class="botao" style="background-image: url(/assets/futebol.png);"></button>
-            <button class="botao" style="background-image: url(/assets/parque-infantil.png);"></button>
-            <button class="botao" style="background-image: url(/assets/desenho.png);"></button>
-            <button class="botao" style="background-image: url(/assets/brinquedos.png);"></button>
+            <button data-audio="/assets/audios/quero-jogar-bola.mp3" class="botao playButton" style="background-image: url(/assets/futebol.png);"></button>
+            <button data-audio="/assets/audios/quero-brincar-parquinho.mp3" class="botao playButton" style="background-image: url(/assets/parque-infantil.png);"></button>
+            <button data-audio="/assets/audios/quero-desenhar-5.mp3" class="botao playButton" style="background-image: url(/assets/desenho.png);"></button>
+            <button data-audio="/assets/audios/.mp3" class="botao playButton" style="background-image: url(/assets/brinquedos.png);"></button>
         </div>
+        <audio id="audioPlayer"></audio>
     </section>
     <script src="/script.js"></script>
 </body>

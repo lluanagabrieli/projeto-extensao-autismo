@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="icon" type="imagem/png" href="/assets/logo.png" />
     <title>Emoções</title>
 </head>
+
 <body class="bg-lazer">
     <header class="cabecalho">
         <img class="cabecalho-logo" src="/assets/logo.png" alt="Logo autismo">
@@ -22,17 +24,21 @@
 
     <section class="botoes">
         <div class="botoes-coluna">
-            <button class="botao" style="background-image: url(/assets/alegria.png);"><p></p></button>
-            <button class="botao" style="background-image: url(/assets/apaixonado.png);"></button>
-            <button class="botao" style="background-image: url(/assets/bravo.png);"></button>
-            <button class="botao" style="background-image: url(/assets/choro.png);"></button>
+            <button data-audio="/assets/audios/estou-feliz-1.mp3" class="botao playButton" style="background-image: url(/assets/alegria.png);">
+            </button>
+            <button data-audio="/assets/audios/estou-apaixonado-3.mp3" class="botao playButton" style="background-image: url(/assets/apaixonado.png);"></button>
+            <button data-audio="/assets/audios/estou-bravo.mp3" class="botao playButton" style="background-image: url(/assets/bravo.png);"></button>
+            <button data-audio="/assets/audios/estou-triste.mp3" class="botao playButton" style="background-image: url(/assets/choro.png);"></button>
         </div>
-        <div  class="botoes-coluna">
-            <button class="botao" style="background-image: url(/assets/com-nojo.png);"></button>
-            <button class="botao" style="background-image: url(/assets/medo.png);"></button>
-            <button class="botao" style="background-image: url(/assets/solidao.png);"></button>
-            <button class="botao" style="background-image: url(/assets/surpreso.png);"></button>
+        <div class="botoes-coluna">
+            <button data-audio="/assets/audios/estou-com-nojo.mp3" class="botao playButton" style="background-image: url(/assets/com-nojo.png);"></button>
+            <button data-audio="/assets/audios/estou-com-medo 1.mp3" class="botao playButton" style="background-image: url(/assets/medo.png);"></button>
+            <button data-audio="/assets/audios/estou-sent-sozinho.mp3" class="botao playButton" style="background-image: url(/assets/solidao.png);"></button>
+            <button data-audio="/assets/audios/estou-surpreso.mp3" class="botao playButton" style="background-image: url(/assets/surpreso.png);"></button>
         </div>
+        <audio id="audioPlayer"></audio>
     </section>
+    <script src="/script.js"></script>
 </body>
+
 </html>
